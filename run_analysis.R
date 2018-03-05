@@ -70,8 +70,8 @@ subject_test <- read.fwf("UCI HAR Dataset/test/subject_test.txt",
 
 #Merge the data in y_train & y_test with activity_label to get the activity 
 #description for each observation
-y_train_label <- merge(y_train, activity_label)
-y_test_label <- merge(y_test, activity_label)
+y_train_label <- inner_join(y_train, activity_label, by="activity_id")
+y_test_label <- inner_join(y_test, activity_label, by="activity_id")
 
 
 #Extracts only the measurements on the mean and standard deviation for 
