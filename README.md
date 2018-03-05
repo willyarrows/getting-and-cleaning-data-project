@@ -1,5 +1,4 @@
-==================================================================
-Peer-graded Assignment: Getting and Cleaning Data Course Project
+#Peer-graded Assignment: Getting and Cleaning Data Course Project
 Version 1.0
 ==================================================================
 Willy Sebastian
@@ -23,14 +22,14 @@ is loaded into R Variable.
 
 Following are the list of variables with the corresponding source files,
 
-activity_label 	: activity_labels.txt
-features 		: features.txt
-x_train 		: X_train.txt
-y_train 		: y_train.txt
-subject_train 	: subject_train.txt
-x_test 			: x_test.txt
-y_test 			: y_test.txt
-subject_test 	: subject_test.txt
+- activity_label 	: activity_labels.txt
+- features 		: features.txt
+- x_train 		: X_train.txt
+- y_train 		: y_train.txt
+- subject_train 	: subject_train.txt
+- x_test 			: x_test.txt
+- y_test 			: y_test.txt
+- subject_test 	: subject_test.txt
 
 The measurement data in x_train and x_test is labeled with descriptive
 variable name which are listed in features.txt
